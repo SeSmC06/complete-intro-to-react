@@ -13,7 +13,7 @@ class Search extends Component {
 
   render() {
     return (
-      <div className="search">
+    <div className="search">
         <header>
           <h1>svideo</h1>
           <input
