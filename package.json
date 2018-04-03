@@ -1,6 +1,9 @@
 {
   "scripts": {
-    "api": "node ratingsAPI.js"
+    "api": "node ratingsAPI.js",
+    "lint": "eslint **/*.{js.jsx} --quiet",
+    "build": "webpack --w",
+    "dev": "webpack-dev-server -w"
   },
   "dependencies": {
     "axios": "0.16.1",
